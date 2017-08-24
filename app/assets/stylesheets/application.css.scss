@@ -55,6 +55,16 @@ html{
     opacity: 0.75;
   }
 }
+.navbar-toggle .icon-bar + .icon-bar,.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus{
+     background-color:#00c6ff;
+  }
+}
 
 
 //homepage style
